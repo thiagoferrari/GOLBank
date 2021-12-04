@@ -72,13 +72,15 @@ const useStyles = makeStyles(theme => ({
 	},
 	logo: {
 		marginLeft: '5%',
-		maxWidth: '30%'
+		//maxWidth: '40%',
+		width: '45%',
+		minWidth: '180px',
 	},
 	logoHorizontallyCenter: {
 		position: 'fixed',
-		left: '50%',
-		top: '4%',
-		transform: 'translate(-20%, -50%)',
+		left: '30%',
+		marginTop: '5%'
+		//transform: 'translate(-20%, -50%)',
 	}
 }));
 
