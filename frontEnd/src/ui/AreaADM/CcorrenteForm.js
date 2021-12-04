@@ -74,7 +74,7 @@ export default function () {
 
 	const [ger, setGer] = useState()
 
-	const [form, setForm] = useState({ stAtivo: true })
+	const [form, setForm] = useState({})
 
 	useEffect(async () => {
 		// Verifica se tem o parâmetro id na rota. Se tiver, temos que buscar
