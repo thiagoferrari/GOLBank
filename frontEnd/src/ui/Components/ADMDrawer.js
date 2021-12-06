@@ -7,39 +7,17 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-import List from "@material-ui/core/List";
-import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Link } from "react-router-dom";
-import TextField from "@material-ui/core/TextField";
 
 import logo from '../../img/logo.png'
 
-import HomeIcon from '@mui/icons-material/Home'; //Página Inicial
-import LightbulbIcon from '@mui/icons-material/Lightbulb'; //Sugestões
-
-import InfoIcon from '@mui/icons-material/Info'; //Dados da Empresa
-import AddIcCallIcon from '@mui/icons-material/AddIcCall'; //Lista de Ramais
-import AlternateEmailIcon from '@mui/icons-material/AlternateEmail'; //Lista de E-mails
-import LocalPoliceIcon from '@mui/icons-material/LocalPolice'; //Normas e Políticas Internas
-import DialerSipIcon from '@mui/icons-material/DialerSip'; //Operações do PABX
-
-import AssignmentIndIcon from '@mui/icons-material/AssignmentInd'; //Gestão de Pessoas
-import WatchLaterIcon from '@mui/icons-material/WatchLater'; //Ocorrência de Ponto
-import NewReleasesIcon from '@mui/icons-material/NewReleases'; //Ocorrência de Acidente
-import FoodBankIcon from '@mui/icons-material/FoodBank'; //Portal Refeição
-import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace'; //Sair
-import AnnouncementIcon from '@material-ui/icons/Announcement'; //Solicitações
-import TouchAppIcon from '@material-ui/icons/TouchApp'; //Acesso ao Portal
-
-import { Button } from "@mui/material";
-
+import InfoIcon from '@mui/icons-material/Info';
+import LocalPoliceIcon from '@mui/icons-material/LocalPolice';
 
 const drawerWidth = 280;
 

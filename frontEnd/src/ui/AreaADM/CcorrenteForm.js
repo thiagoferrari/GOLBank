@@ -3,10 +3,6 @@ import TextField from '@material-ui/core/TextField'
 import MenuItem from '@material-ui/core/MenuItem'
 import { makeStyles } from '@material-ui/core/styles'
 import FormControl from '@material-ui/core/FormControl'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
-import Checkbox from '@material-ui/core/Checkbox'
-import InputAdornment from '@material-ui/core/InputAdornment'
-import Input from '@material-ui/core/Input'
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
 import axios from 'axios'
@@ -16,8 +12,6 @@ import { useHistory, useParams } from 'react-router-dom'
 import ConfirmDialog from '../Components/ConfirmDialog'
 import Select from '@material-ui/core/Select'
 import { InputLabel } from '@mui/material'
-import OutlinedInput from '@mui/material/OutlinedInput';
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
 	form: {

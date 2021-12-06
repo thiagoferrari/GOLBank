@@ -13,15 +13,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Box } from '@mui/material';
 
 import { MuiThemeProvider, createTheme, makeStyles } from '@material-ui/core/styles';
-import cyan from '@material-ui/core/colors/cyan'
-import orange from '@material-ui/core/colors/red'
-
+import { cyan, yellow } from '@material-ui/core/colors'
 
 const theme = createTheme({
   palette: {
-    /* type: 'dark', */
     primary: {
-      main: orange[500],
+      main: yellow[500],
     },
     secondary: {
       main: cyan[500],
